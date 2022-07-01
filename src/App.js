@@ -10,12 +10,12 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/map">
+        <Route path="/">
           <MapView />;
         </Route>
-        <Route path="/">
+        {/* <Route path="/">
           <Home />
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
